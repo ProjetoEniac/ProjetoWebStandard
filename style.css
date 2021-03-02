@@ -4,6 +4,13 @@ body {
     background-color: white;
 }
 
+.global-page-container {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+}
+
 /* Formatações para o Menu*/
 
 ul {
@@ -76,24 +83,37 @@ div#camiseta-price {
 
 /* icone da vitrine */
 
-.prev {
-    margin-top: -50px;
-    margin-left: 510px;
-}
+.arrow {
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: center;
+    cursor: pointer;
+    vertical-align: middle;
+  }
 
-.next {
-    margin-top: 10px;
-    margin-left: 780px;
+#arrow-prev {
+    background-image: url("Icones/arrow_prev.svg");
+    margin-left: 300px;
+}
+  
+#arrow-next {
+    background-image: url("Icones/arrow_next.svg");
 }
 
 .description {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px black;
+    transition: 1s;
 }
 
 #camiseta-price {
     color: black;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px black;
+    transition: 1s;
 }
