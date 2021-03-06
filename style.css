@@ -51,6 +51,7 @@ li a:hover {
     background-color: rgb(180, 178, 178);
     box-shadow: 2px 1px 10px 2px black;
     margin-top: 100px;
+    align-items: center;
 }
 
 .vitrine-slider .slide {
@@ -80,7 +81,6 @@ div#camiseta-price {
     font-size: 25px;
     color: black;
 }
-
 /* icone da vitrine */
 
 .arrow {
