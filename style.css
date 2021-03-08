@@ -13,7 +13,17 @@ body {
 
 /* Formatações para o Menu*/
 
-
+.busca {
+    float: right;
+    width: 30%;
+}
+.busca input{
+    height: 20px;
+    background-image:  url(../ProjetoWebStandard/Icones/search.png.png) ;
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 2px solid #001011d6;
+}
 ul {
     margin: 0;
     padding: 0;
