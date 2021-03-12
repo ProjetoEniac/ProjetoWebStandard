@@ -62,7 +62,7 @@ li a:hover {
 }
 
 
-/* Formatação da Vitrine */
+/* Formatação da Vitrine Slide*/
 
 .container-vitrine {
     background-color: rgba(196, 195, 195, .2);
@@ -122,6 +122,42 @@ div#camiseta-name{
     margin-top: 12px;
     font-size: 25px;
 }
+
+/*Termino da Vitrine Slide*/
+
+/*Formatações da Vitrine de Produtos em Destaque*/
+
+.PD{
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    text-transform: uppercase;
+    color: salmon;
+}
+/*final da formatação de produtos em destaque*/
+
+/*formatação do container de produtos*/
+
+.populares {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    color: blue;
+}
+
+.container-produtos{
+    display: inline-flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.produtos-itens {
+    text-align: center;
+    text-shadow: 1px 1px 1px 2px black;
+    
+} 
+/*final do container de produtos*/
 
 /* Botões */
 
