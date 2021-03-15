@@ -71,13 +71,13 @@ li a:hover {
 
 .container-vitrine {
     background-color: rgba(196, 195, 195, .2);
-    box-shadow: 2px 1px 10px 2px rgb(0, 68, 255);
+    box-shadow: 2px 1px 10px 2px #59429d;
     margin-top: 60px;
     align-items: center;
 }
 
 .vitrine-slider .slide {
-    box-shadow: 1px 1px 10px 1px black;
+    box-shadow: 1px 1px 10px 1px #59429d;
     transform: scale(0.5);
     transition: 1s;
     -webkit-transition: background-color 1s ease-out;
@@ -89,7 +89,7 @@ li a:hover {
 
 .vitrine-slider .slide.slick-center {
     transform: scale(0.8);
-    box-shadow: 1px 1px 10px 1px black;
+    box-shadow: 1px 1px 10px 1px #59429d;
 }
 
 div#camiseta-name{
