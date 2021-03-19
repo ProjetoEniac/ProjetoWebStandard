@@ -178,6 +178,27 @@ div#camiseta-name{
     text-transform: uppercase;
     font-size: 14px;
 }
+
+.Moda_Feminina {
+    color: pink;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
+}
+
+.Moda_Masculina {
+    color: blue;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
+}
+
 /*final do container de produtos*/
 
 /* Botões */
