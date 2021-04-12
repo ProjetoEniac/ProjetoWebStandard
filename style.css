@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css?family=poppins');
 *{
     margin: 0;
     padding: 0;
@@ -66,11 +66,8 @@ li a:hover {
     border-color: #000;
 }
 
-/* menu Checkbox */
-
 
 /* final da formatação dos menus */
-
 
 /* Formatação da Vitrine Slide*/
 
