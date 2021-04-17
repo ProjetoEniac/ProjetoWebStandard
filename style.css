@@ -17,28 +17,18 @@ body {
 }
 
 /*Formatações para o logo e imagens da pagina*/
+
 .logo {
     position: absolute;
 }
-
 /* Formatações para o Menu*/
-.busca {
+a {
     float: right;
-    width: 30%;
-    margin-right: -230px;
-    margin-top: 5px;
-}
-.busca input{
-    height: 20px;
-    background-image:url("Icones/search.png") ;
-    background-repeat: no-repeat;
-    background-position: 96%;
-    border: 2px solid #001011d6;
+    margin-right: 25px;
 }
 ul {
     margin: 5px;
-    padding: 5px;
-    margin-left: 500px;
+    padding: 10px;
 }
  
 li {
@@ -48,23 +38,26 @@ li {
 }
 
 li a {
-    padding: 5px 10px; 
+    padding: 5px 30px; 
     margin:0;
-    border: 0px solid rgb(0, 0, 0); 
+    border: 0px solid #fff; 
     box-shadow: 2px 2px 2px 2px;
-    background: rgb(53, 52, 52);
+    background: #9361c2;;
     text-decoration: none;
-    color:#FFF;
+    color:#fff;
     /* cantos arredondados */
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
 }
 li a:hover {
-    background: rgb(110, 226, 120);
-    color: rgb(187, 5, 5); 
+    background: #b17de2;
+    color: #380B61; 
     border-color: #000;
 }
+
+
+
 
 
 /* final da formatação dos menus */
