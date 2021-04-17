@@ -56,10 +56,6 @@ li a:hover {
     border-color: #000;
 }
 
-
-
-
-
 /* final da formatação dos menus */
 
 /* Formatação da Vitrine Slide*/
@@ -67,8 +63,11 @@ li a:hover {
 .container-vitrine {
     background-color: rgba(196, 195, 195, .2);
     box-shadow: 2px 1px 10px 2px #59429d;
-    margin-top: 60px;
+    border-radius: 10px;
+    margin-top: 40px;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .vitrine-slider .slide {
@@ -131,7 +130,7 @@ div#camiseta-name{
     text-align: center;
     text-shadow: 1px 1px 3px black;
     text-transform: uppercase;
-    color: salmon;
+    color: #c190f3;
 }
 /*final da formatação de produtos em destaque*/
 
@@ -153,14 +152,14 @@ div#camiseta-name{
 }
 
 .produtos-itens {
-    color: tomato;
+    color: #caaae7;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 } 
 
 .produtos-preco {
     text-align: center;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .row {
