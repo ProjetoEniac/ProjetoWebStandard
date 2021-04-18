@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: poppins;
+    background-color: #F0F8FF;
 }
 
 #titulo {
@@ -104,45 +106,94 @@ fieldset.grupo .campo {
     cursor: pointer;
 }
 
-/*Formatações para o logo e imagens da pagina*/
-.logo {
-    margin-left: -500px;
-    margin-top: -30px;
-}
-
 /* Formatações para o Menu*/
-
-ul {
-    margin: 5px;
-    padding: 5px;
-    margin-left: 60px;
-    margin-top: -55px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    position: relative;
+    box-sizing: border-box;
 }
- 
-li {
-    list-style: none; 
-    margin: 5px;
-    display: inline;
+ul{
+    float: left;
+    list-style: none;
 }
-
-li a {
-    padding: 5px 10px; 
-    margin:0;
-    border: 0px solid rgb(0, 0, 0); 
-    box-shadow: 2px 2px 2px 2px;
-    background: #856ecc;
+a{
     text-decoration: none;
-    color:#FFF;
-    /* cantos arredondados */
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
 }
-li a:hover {
-    background: violet;
-    color: #000; 
-    border-color: #000;
+nav{
+    width:100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+    z-index: 100;
 }
-
+.midias-sociais{
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    margin: 0px 5px;
+    color: rgba(0,0,0,0.7);
+    font-size: 0.9rem;
+}
+.telefone{
+    color: rgba(0,0,0,0.7);
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+.social a:hover{
+    color: #59429d;
+    transition: all ease 0.3s;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+}
+.logo img{
+    height: 60px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    position: relative;
+    margin: 20px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.menu li a{
+    color: #59429d;
+}
+.carrinho a{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    color: #59429d;
+}
+.menu a:hover,
+.carrinho a:hover{
+    color: #000;
+    transition: all ease 0.3s;
+}
+.fa-shopping-cart{
+    position: relative;
+}
+.num-cart-product{
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width:25px;
+    height: 25px;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    background-color: #0b9d8a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
 
 /* final da formatação dos menus */
