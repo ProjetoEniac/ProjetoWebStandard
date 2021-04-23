@@ -51,6 +51,3 @@ $(document).ready(function(){
         $('.navigation').toggleClass('active')
     })
 });
-
-
-/*  Carrinho de compras */
