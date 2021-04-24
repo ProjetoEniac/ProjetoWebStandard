@@ -170,6 +170,8 @@ nav{
 }
 .menu{
     display: flex;
+    margin-top: -65px;
+    margin-left: 750px;
 }
 .menu li{
     position: relative;

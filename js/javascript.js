@@ -33,22 +33,15 @@ $(function(){
     });
 });
 
-/*Pesquisar*/
-
- $(document).on('click','.search',function(){
-    $('.search-bar').addClass('search-bar-active')
-});
-
-$(document).on('click','.search-cancel',function(){
-    $('.search-bar').removeClass('search-bar-active')
-});
 
 /*menu responsivo*/
 
 $(document).ready(function(){
     $('.toggle').click(function(){
         $('.toggle').toggleClass('active')
-        $('.navigation').toggleClass('active')
+        $('.navigacao').toggleClass('active')
     })
 });
+
+
 
