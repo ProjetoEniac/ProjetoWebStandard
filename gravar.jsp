@@ -14,7 +14,7 @@
 	String banco    = "almevest";
 	String usuario  = "root";
 	String senha    = "";
-	String endereco = "jdbc:mysql://localhost:3306/"+banco;
+	String endereco = "jdbc:mysql://localhost:3306/" + banco;
 
 	String driver   = "com.mysql.jdbc.Driver";
 
