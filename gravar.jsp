@@ -37,9 +37,11 @@
 	conexao.close();
 	stm.close();
 
-	out.print("Contato realizado com sucesso!!!");
+	out.print("Orçamento realizado com sucesso!!!");
 	out.print("<br/>");
-	out.print("Em breve Retornaremos o Contato!!!");
+	out.print("Em breve entraremos em contato.");
+	out.print("<br/>");
+	out.print("Obrigado pela preferência!");
 	out.print("<br/><br/>");
 	out.print("<a href='orcamento.html'>Voltar</a>");
 
