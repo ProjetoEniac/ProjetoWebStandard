@@ -39,7 +39,7 @@
 
 	out.print("Contato realizado com sucesso!!!");
 	out.print("<br/>");
-	out.print("Em breve entraremos Retornaremos.");
+	out.print("Em breve Retornaremos o Contato!!!");
 	out.print("<br/><br/>");
 	out.print("<a href='orcamento.html'>Voltar</a>");
 
