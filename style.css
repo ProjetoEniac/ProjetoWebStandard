@@ -356,4 +356,15 @@ div#camiseta-name{
 
 /* Fim dos Botões */
   
+/* Rodapé */
+footer {
+	text-align: center;
+    background-color: rgba(196, 195, 195, .2);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: black;
+	font-size: 15px;
+}
 
