@@ -1,5 +1,3 @@
-// Vitor 
-
 <%@page language="java" import="java.sql.*" %>
 
 <%
@@ -39,9 +37,9 @@
 	conexao.close();
 	stm.close();
 
-	out.print("Compra realizada com sucesso!!!");
+	out.print("Contato realizado com sucesso!!!");
 	out.print("<br/>");
-	out.print("Em breve entraremos em contato.");
+	out.print("Em breve entraremos Retornaremos.");
 	out.print("<br/><br/>");
 	out.print("<a href='orcamento.html'>Voltar</a>");
 
