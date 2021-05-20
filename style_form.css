@@ -168,19 +168,17 @@ nav{
     color: #ae88d1;
     transition: all ease 0.3s;
 }
-.navigation{
+.navegacao{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 45px;
+    padding: 10px 45px;
 }
 .logo img{
     height: 70px;
 }
 .menu{
     display: flex;
-    margin-top: -65px;
-    margin-left: 750px;
 }
 .menu li{
     position: relative;
@@ -199,7 +197,6 @@ nav{
 }
 .menu a:hover,
 .right-menu a:hover,
-.search-cancel:hover,
 .form-cancel:hover{
     color: #ac7fd6;
     transition: all ease 0.3s;
@@ -218,36 +215,6 @@ nav{
     position: absolute;
     top: -20px;
     right: -20px;
-}
-.sale-lable:after{
-    content: '';
-    width:0px;
-    height: 0px;
-    border-bottom: 5px solid transparent;
-    border-left: 3px solid transparent;
-    border-top: 7px solid #f76b6a;
-    border-right: 5px solid transparent;
-    position: absolute;
-    left: 10%;
-    top: 100%;
-}
-.fa-shopping-cart{
-    position: relative;
-}
-.num-cart-product{
-    position: absolute;
-    top: -17px;
-    right: -17px;
-    width:25px;
-    height: 25px;
-    font-size: 0.8rem;
-    border-radius: 50%;
-    background-color: #0b9d8a;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
 }
 
 /* Rodapé */
